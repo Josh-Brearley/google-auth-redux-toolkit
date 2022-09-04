@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from "react";
-import { signIn, signOut } from "../redux-index";
+import { signIn, signOut } from "../userSlice";
 import { useSelector, useDispatch } from "react-redux";
 
 const GoogleAuth = () => {
